@@ -9,15 +9,15 @@
            fetch="https://android.googlesource.com/" />
            
   <remote  name="gh"
-           fetch="http://github.com/"
+           fetch="git://github.com/"
            revision="ics" />
            
   <remote  name="kang"
-           fetch="https://github.com/AOKP/"
+           fetch="git://github.com/AOKP/"
            revision="master" />
            
   <remote  name="cm"
-           fetch="http://github.com/CyanogenMod/"
+           fetch="git://github.com/CyanogenMod/"
            revision="ics" />
  
  <remote  name="moto"
