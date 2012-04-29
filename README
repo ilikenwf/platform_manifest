@@ -1,6 +1,7 @@
-$ repo init -u https://github.com/AOKP/platform_manifest.git -b master
+$ repo init -u https://github.com/AOKP-moto/platform_manifest.git -b master
 $ repo sync
 
-temporary fix to build:
-$ install -d prebuilt/android-arm/kernel
-  curl -o prebuilt/android-arm/kernel/LINUX_KERNEL_COPYING -O https://raw.github.com/ezterry/kernel-biff-testing/ezgb-2636/COPYING
+To build:
+. build/envsetup.sh
+lunch (then pick the number for your device from the list)
+make otapackage
