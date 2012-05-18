@@ -66,6 +66,7 @@
   <project path="external/collada" name="platform/external/collada" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/dbus" name="platform/external/dbus" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/dropbear" name="platform/external/dropbear" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="gh" revision="ics" />
