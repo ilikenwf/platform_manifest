@@ -257,7 +257,7 @@
   <project path="packages/apps/AppWidgetPicker" name="AOKP/packages_apps_AppWidgetPicker" remote="gh" revision="ics" />
   
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="master" />
-  <project path="device/motorola/droid2" name="ilikenwf/android_device_motorola_droid2" remote="gh" revision="ics" />
+  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="moto" revision="ics" />
   <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="moto" revision="ics" />
 
   <project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="gh" revision="ics" />
