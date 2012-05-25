@@ -99,7 +99,7 @@
   <project path="external/javassist" name="platform/external/javassist" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/jdiff" name="platform/external/jdiff" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/jhead" name="platform/external/jhead" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/jpeg" name="AOKP/external_jpeg" remote="gh" revision="ics" />
+  <project path="external/jpeg" name="AOKP/android_external_jpeg-turbo" remote="gh" revision="ics" />
   <project path="external/jsilver" name="platform/external/jsilver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/jsr305" name="platform/external/jsr305" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/junit" name="platform/external/junit" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -214,7 +214,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/apps/Launcher2" name="AOKP/android_packages_apps_Launcher2" remote="gh" revision="ics" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="gh" revision="ics" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -273,6 +273,7 @@
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="gh" revision="ics" />
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" remote="gh" revision="gb-release-7.2" />
   <project path="packages/apps/AppWidgetPicker" name="AOKP/packages_apps_AppWidgetPicker" remote="gh" revision="ics" />
+  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="gh" revision="ics" />
   
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="master" />
   <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="moto" revision="ics" />
