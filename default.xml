@@ -11,6 +11,9 @@
   <remote  name="gh"
            fetch="git://github.com/"
            revision="ics" />
+
+  <remote  name="gummy"
+           fetch="git://github.com/teamgummy/" />
            
   <remote  name="kang"
            fetch="git://github.com/AOKP/"
@@ -276,11 +279,11 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="gh" revision="ics" />
   
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="master" />
-  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="moto" revision="ics" />
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="gummy" revision="ics" />
   <project path="vendor/motorola/shadow" name="android_vendor_motorola_shadow" remote="moto" revision="ics" />
-  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="moto" revision="ics" />
+  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="gummy" revision="ics" />
   <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="moto" revision="ics" />
-  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="moto" revision="ics" />
+  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="gummy" revision="ics" />
   <project path="vendor/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="moto" revision="ics" />
 
   <project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="gh" revision="ics" />
