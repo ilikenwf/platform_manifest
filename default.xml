@@ -11,9 +11,6 @@
   <remote  name="gh"
            fetch="git://github.com/"
            revision="ics" />
-
-  <remote  name="gummy"
-           fetch="git://github.com/teamgummy/" />
            
   <remote  name="kang"
            fetch="git://github.com/AOKP/"
