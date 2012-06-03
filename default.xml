@@ -41,7 +41,6 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
-  <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/moto/common" name="device/moto/common" />
   
