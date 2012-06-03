@@ -3,6 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+<<<<<<< HEAD
            
   <remote  name="404" 
            revision="refs/tags/android-4.0.4_r1.2"
@@ -17,8 +18,7 @@
            revision="master" />
            
   <remote  name="cm"
-           fetch="git://github.com/CyanogenMod/"
-           revision="ics" />
+           fetch="git://github.com/CyanogenMod/" />
  
   <remote  name="moto"
            fetch="git://github.com/AOKP-moto/" />
@@ -29,8 +29,7 @@
   <remote  name="sts"
            fetch="git://github.com/STS-Dev-Team/" />
 
-  <default revision="master"
-           remote="aosp"
+  <default remote="aosp"
            sync-j="4" />
 
   <project path="build" name="ilikenwf/android_build" revision="ics" remote="gh" >
@@ -47,6 +46,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/moto/common" name="device/moto/common" />
+  
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -69,8 +69,8 @@
   <project path="external/collada" name="platform/external/collada" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/dbus" name="platform/external/dbus" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/dropbear" name="platform/external/dropbear" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="gh" revision="ics" />
   <project path="external/easymock" name="platform/external/easymock" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -107,6 +107,7 @@
   <project path="external/libffi" name="platform/external/libffi" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/libgsm" name="platform/external/libgsm" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses"  remote="gh" revision="ics" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/libpcap" name="platform/external/libpcap" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -116,15 +117,14 @@
   <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/libxslt" name="platform/external/libxslt" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/llvm" name="android_external_llvm" remote="cm" revision="ics"/>
+  <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/lzo" name="android_external_lzo" remote="cm" revision="ics" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="gh" revision="ics" />
   <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/mesa3d" name="AOKP/external_mesa3d" remote="gh" revision="ics"/>
   <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/mockwebserver" name="platform/external/mockwebserver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/mtpd" name="platform/external/mtpd" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/libncurses" name="android_external_libncurses"  remote="cm" revision="ics" />
   <project path="external/netcat" name="platform/external/netcat" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/netperf" name="platform/external/netperf" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/neven" name="platform/external/neven" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -132,7 +132,7 @@
   <project path="external/oauth" name="platform/external/oauth" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/openssl" name="platform/external/openssl" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/openvpn" name="android_external_openvpn" remote="cm" revision="ics" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="gh" revision="ics" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="gh" revision="ics"  />
   <project path="external/pcre" name="platform/external/pcre" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/ping" name="platform/external/ping" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -142,13 +142,14 @@
   <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/qemu" name="AOKP/external_qemu" remote="gh" revision="ics" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="external/quake" name="platform/external/quake" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/replicaisland" name="platform/external/replicaisland" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/safe-iop" name="platform/external/safe-iop" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/skia" name="AOKP/external_skia" remote="gh" revision="ics" />
   <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/speex" name="platform/external/speex" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/sqlite" name="platform/external/sqlite" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/srec" name="android_external_srec" remote="cm" revision="ics"/>
+  <project path="external/srec" name="platform/external/srec" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/srtp" name="platform/external/srtp" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/strace" name="platform/external/strace" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -158,7 +159,7 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/tremolo" name="platform/external/tremolo" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/v8" name="platform/external/v8" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="external/v8" name="CyanogenMod/android_external_v8" remote="gh" revision="ics"/>
   <project path="external/valgrind" name="platform/external/valgrind" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/webkit" name="AOKP/external_webkit" remote="gh" revision="ics" />
   <project path="external/webp" name="platform/external/webp" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -181,23 +182,22 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="gh" revision="ics" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="hardware/libhardware" name="teamgummy/android_hardware_libhardware" remote="gh" revision="ics" />
-  <project path="hardware/libhardware_legacy" name="CM9-D2G/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
+  <project path="hardware/alsa/sound" name="AOKP/hardware_alsa_sound" remote="gh" revision="ics" />
+  <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="gh" revision="ics" />
+  <project path="hardware/libhardware" name="AOKP/android_hardware_libhardware" remote="gh" revision="ics" />
+  <project path="hardware/libhardware_legacy" name="AOKP/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="gh" revision="ics" />
   <project path="hardware/qcom/camera" name="AOKP/android_hardware_qcom_camera" remote="gh" revision="ics" />
   <project path="hardware/msm7k" name="AOKP/android_hardware_msm7k" remote="gh" revision="ics" />
   <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="gh" revision="ics" />
   <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="gh" revision="ics" />
-  <project path="hardware/ril" name="CM9-D2G/android_hardware_ril" remote="gh" revision="ics" />
+  <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="gh" revision="ics" />
   <project path="hardware/ti/wlan" name="AOKP/android_hardware_ti_wlan" remote="gh" revision="ics" />
   <project path="hardware/ti/wpan" name="AOKP/android_hardware_ti_wpan" remote="gh" revision="ics" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="gh" revision="ics"/>
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="gh" revision="ics" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -217,12 +217,12 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/apps/Phone" name="ilikenwf/packages_apps_Phone" remote="gh" revision="ics" />
+  <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="gh" revision="ics" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="gh" revision="ics" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -238,10 +238,11 @@
   <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" revision="ics" remote="gh" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="gh" revision="ics"/>
-  <project path="system/core" name="system_core" remote="moto" revision="ics" />
+  <project path="system/core" name="AOKP/system_core" remote="gh" revision="ics" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -250,7 +251,7 @@
   <project path="vendor/aokp" name="ilikenwf/vendor_aokp" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="AOKP/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="AOKP/android_vendor_qcom_opensource_omx_mm-video" remote="gh" revision="ics" />
-
+  
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
   <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
@@ -258,21 +259,22 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" remote="gh" revision="gb-release-7.2" />
   <project path="packages/apps/AppWidgetPicker" name="AOKP/packages_apps_AppWidgetPicker" remote="gh" revision="ics" />
+
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="gummy" revision="master" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="gummy" revision="ics" />
   <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="gummy" revision="ics" />
-
   <project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="gh" revision="ics" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="device/motorola/common" name="MotoMagic/android_device_moto_hijack" remote="gh" revision="ics" />
-
   <project path="aokp_platform_manifest" name="ilikenwf/platform_manifest" remote="gh" revision="master" />
   <project path="platform_manifest" name="platform_manifest" remote="moto" revision="master" />
-  
+
   <project name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" revision="refs/heads/ics" remote="gh" />
   <project name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" revision="refs/heads/ics" remote="gh" />
   <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="refs/heads/ics" remote="gh" />
   <project name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" revision="refs/heads/ics" remote="gh" />
+
+  <project path="platform_manifest" name="ilikenwf/platform_manifest" remote="gh" revision="ics" />
 
 
 </manifest>
