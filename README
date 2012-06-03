@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 $ repo init -u https://github.com/ilikenwf/platform_manifest.git -b master
-=======
-$ repo init -u https://github.com/AOKP/platform_manifest.git -b ics
->>>>>>> aokp/ics
 $ repo sync
 
 To build:
