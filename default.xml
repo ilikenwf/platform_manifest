@@ -28,7 +28,7 @@
   <remote  name="sts"
            fetch="git://github.com/STS-Dev-Team/" />
 
-  <default remote="aosp" sync-j="4" />
+  <default remote="aosp" sync-j="4" revision="ics" />
 
   <project path="build" name="ilikenwf/android_build" revision="ics" remote="gh" >
     <copyfile src="core/root.mk" dest="Makefile" />
