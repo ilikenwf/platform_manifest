@@ -297,5 +297,6 @@
   <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="refs/heads/ics" remote="gh" />
   <project name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" revision="refs/heads/ics" remote="gh" />
 
+  <project path="external/hostapd" name="android_external_hostapd" remote="cm" revision="gingerbread" />
 
 </manifest>
