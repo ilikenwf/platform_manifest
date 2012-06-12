@@ -269,5 +269,10 @@
 
   <project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="gh" revision="ics" />
   <project path="device/motorola/common" name="MotoMagic/android_device_moto_hijack" remote="gh" revision="ics" />
-  <project path="platform_manifest" name="ilikenwf/platform_manifest" remote="gh" revision="ics" />
+  
+  <project path="aokp_platform_manifest" name="ilikenwf/platform_manifest" remote="gh" revision="ics" />
+  <project path="platform_manifest" name="ilikenwf/platform_manifest" remote="gh" revision="ics" />  
+  
+  <project path="external/hostapd" name="android_external_hostapd" remote="cm" revision="gingerbread" />
+  
 </manifest>
