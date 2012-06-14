@@ -45,9 +45,9 @@
   <project path="dalvik" name="AOKP/platform_dalvik" remote="gh" revision="ics" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
   <project path="device/common" name="device/common" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="device/moto/common" name="device/moto/common" />
-  <project path="device/sample" name="device/sample" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="device/moto/common" name="device/moto/common" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="device/sample" name="device/sample" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
