@@ -80,6 +80,7 @@
   <project path="external/emma" name="platform/external/emma" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/esd" name="platform/external/esd" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/expat" name="platform/external/expat" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="external/eyes-free" name="platform/external/eyes-free" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/fdlibm" name="platform/external/fdlibm" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/flac" name="platform/external/flac" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/freetype" name="platform/external/freetype" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -206,7 +207,7 @@
   <project path="packages/apps/Camera" name="AOKP/packages_apps_Camera" remote="gh" revision="ics" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="gh" revision="ics" />
+  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="gh" revision="ics" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="ics" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="gh" revision="ics" />
   <project path="packages/apps/Email" name="ilikenwf/android-email-nopin" remote="gh" revision="ics"/>
