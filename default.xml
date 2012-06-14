@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<manifest>
-		<remote  name="aosp"
-			fetch="https://android.googlesource.com/" 
-			revision="refs/tags/android-4.0.4_r1.2" />
-			   
+	<manifest>			   
 		<remote  name="404" 
 			revision="refs/tags/android-4.0.4_r1.2"
 			fetch="https://android.googlesource.com/" />
