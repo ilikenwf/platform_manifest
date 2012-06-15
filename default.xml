@@ -28,7 +28,8 @@
 	<remote  name="sts"
 		fetch="git://github.com/STS-Dev-Team/" />
 
-	<default remote="aosp"
+	<default revision="master"
+		remote="aosp"
 		sync-j="4" />
 
 	<project path="build" name="dhacker29/android_build" revision="ics" remote="gh" >
