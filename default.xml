@@ -242,7 +242,7 @@
 	<project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="gh" revision="ics" />
 	<project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-	<project path="prebuilt" name="AOKP/prebuilt" remote="gh" revision="ics" />
+	<project path="prebuilt" name="ilikenwf/prebuilt" remote="gh" revision="ics" />
 	<project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="system/bluetooth" name="AOKP/system_bluetooth" remote="gh" revision="ics"/>
 	<project path="system/core" name="system_core" remote="moto" revision="ics" />
