@@ -77,7 +77,6 @@
 	<project path="external/emma" name="platform/external/emma" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="external/esd" name="platform/external/esd" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
 	<project path="external/expat" name="platform/external/expat" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-	<project path="external/eyes-free" name="platform/external/eyes-free" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="external/fdlibm" name="platform/external/fdlibm" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="external/flac" name="platform/external/flac" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="external/freetype" name="AOKP/external_freetype" remote="gh" revision="ics" />
@@ -213,7 +212,6 @@
 	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-	<project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="gh" revision="ics" />
 	<project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="gh" revision="ics"/>
 	<project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -243,12 +241,13 @@
 	<project path="prebuilt" name="AOKP/prebuilt" remote="gh" revision="ics" />
 	<project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="system/bluetooth" name="AOKP/system_bluetooth" remote="gh" revision="ics"/>
-	<project path="system/core" name="AOKP/system_core" remote="gh" revision="ics" />
+	<project path="system/core" name="system_core" remote="moto" revision="ics" />
 	<project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" />
 	<project path="system/media" name="AOKP/system_media" remote="gh" revision="ics" />
 	<project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
 	<project path="system/vold" name="AOKP/system_vold" remote="gh" revision="ics" />
 
+	<project path="external/hostapd" name="android_external_hostapd" remote="cm" revision="gingerbread" />
 	<project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="gh" revision="ics" />
 	<project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="master" />
 	<project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="gummy" revision="ics" />
