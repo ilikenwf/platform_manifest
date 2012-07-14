@@ -10,12 +10,15 @@
 	<remote  name="gh"
 		fetch="git://github.com/"
 		revision="ics" />
+		
+	<remote  name="cm9"
+		fetch="git://github.com/CM9-D2G/" />
 
 	<remote  name="gummy"
 		fetch="git://github.com/teamgummy/" />
 		   
 	<remote  name="kang"
-		fetch="git://github.com/AOKP/"
+		fetch="git://github.com/AOKP/" 
 		revision="master" />
 		   
 	<remote  name="cm"
@@ -182,8 +185,8 @@
 	<project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
 	<project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="gh" revision="ics" />
 	<project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-	<project path="hardware/libhardware" name="AOKP/android_hardware_libhardware" remote="gh" revision="ics" />
-	<project path="hardware/libhardware_legacy" name="AOKP/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
+	<project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm9" revision="ics" />
+	<project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm9" revision="ics" />
 	<project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="gh" revision="ics" />
 	<project path="hardware/qcom/camera" name="AOKP/android_hardware_qcom_camera" remote="gh" revision="ics" />
 	<project path="hardware/msm7k" name="AOKP/android_hardware_msm7k" remote="gh" revision="ics" />
@@ -263,6 +266,7 @@
 	<project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="master" />
 	<project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="gummy" revision="ics" />
 	<project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="moto" revision="ics" />
+	<project path="vendor/motorola" name="proprietary_vendor_motorola" remote="cm9" revision="cm9" />
 
 	<project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="gh" revision="ics" />
 	<project path="device/motorola/common" name="MotoMagic/android_device_moto_hijack" remote="gh" revision="ics" />
