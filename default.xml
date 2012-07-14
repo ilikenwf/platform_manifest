@@ -10,6 +10,9 @@
 	<remote  name="gh"
 		fetch="git://github.com/"
 		revision="ics" />
+		
+	<remote  name="cm9"
+		fetch="git://github.com/CM9-D2G/"
 
 	<remote  name="gummy"
 		fetch="git://github.com/teamgummy/" />
