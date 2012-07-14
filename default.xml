@@ -12,13 +12,13 @@
 		revision="ics" />
 		
 	<remote  name="cm9"
-		fetch="git://github.com/CM9-D2G/"
+		fetch="git://github.com/CM9-D2G/" />
 
 	<remote  name="gummy"
 		fetch="git://github.com/teamgummy/" />
 
 	<remote  name="kang"
-		fetch="git://github.com/AOKP/" />
+		fetch="git://github.com/AOKP/" 
 		revision="master" />
 
 	<remote  name="cm"
